@@ -1,0 +1,39 @@
+@-moz-document url-prefix(about:home), url-prefix(about:newtab) {
+    .click-target-container *, .top-sites-list * { 
+        color: #fff !important ; text-shadow: 2px 2px 2px #000 !important ;
+    }
+
+    body { 
+        background: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.3),rgba(0, 0, 0, 0)), url(images/bg2.jpg) !important;
+        background-size: cover !important ; 
+        --newtab-background-color-secondary: rgba(0,0,0,0.2);
+        --newtab-search-icon: url(chrome://branding/content/about-logo.png) !important;
+        --newtab-primary-action-background: rgba(255,255,255,0.7) !important;
+        --newtab-primary-action-background-dimmed: rgba(255,255,255,0.4) !important;
+
+        .outer-wrapper{
+            padding-top: 3vh !important;
+        }
+
+        .logo-and-wordmark .logo { 
+            background: none;
+            opacity:0;
+            background-size: cover !important; 
+            }
+            
+        .logo{
+            max-height: 75px !important; 
+            max-width: 0px;
+        }
+            
+        .wordmark { 
+            background: url(images/LURKU.svg) no-repeat center center !important; 
+            background-size: 134px !important;-moz-context-properties: fill !important;
+            display: inline-block !important; 
+            max-height: 82px !important; 
+            margin-inline-start: 16px !important; 
+            width: 134px !important;
+            }
+        
+    } 
+}
