@@ -13,11 +13,14 @@
 
 <br>
 
-First time installation:-
+<h3>First time installation:-</h3>
+
+
 </div>
 1. Download and Install <a href="https://www.mozilla.org/en-US/firefox/new/">Mozilla Firefox</a>
 
 2. After the installation search `about:support` in the url bar
+   
 3. Click the open folder button in `Profile Folder` Section as shown below
 <br>
 
@@ -36,3 +39,13 @@ First time installation:-
    **Alternatively**,
    If you already have git cli installed you can just open git in `chrome` folder and paste the following
    ```gh repo clone Lurku/firefox-aesthetic-theme```
+
+6. Now open a new tab on your Firefox and type `about:config` then click `Accept Risk And Continue`
+
+
+7. Search for `toolkit.legacyUserProfileCustomizations.stylesheets` and switch it to `True`
+
+8. And Congrats!! We've Completed the setup and now restarting Firefox will show your theme.
+
+
+**NOTE-** To make the top of wallpaper seamlessly blend with Navbar... <a href="https://addons.mozilla.org/en-US/firefox/addon/black21/">This Theme</a> was used but you're free to experiment with other themes from [Mozilla Addons Store](https://addons.mozilla.org/en-US/firefox/)
